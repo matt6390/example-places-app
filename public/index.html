@@ -23,7 +23,12 @@
     <h1>{{ message }}</h1>
 
     <div v-for="place in places">
-      {{ place.name }}
+      <div>
+        <h2>{{ place.name }}</h2>
+      </div>
+      <div>
+        <h4>{{ place.address }}</h4>
+      </div>
     </div>
 
   </div>
